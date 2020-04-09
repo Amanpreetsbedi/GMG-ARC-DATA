@@ -1,0 +1,445 @@
+a {
+  text-decoration: none;
+}
+
+button {
+  cursor: pointer;
+  border: none;
+  outline: none;
+  background-color: transparent;
+}
+
+.header {
+  width: 100%;
+  height: 10px;
+  text-align: center;
+  line-height: 150px;
+  z-index:99999;
+  background-color: #fff;
+}
+.header button {
+  display: none;
+}
+
+.responsivelogo{
+	display:none !important;
+	float:none;
+}
+
+.dekstoplogo{
+	width:10%;
+	display:block;
+	float:left;
+	position:relative;
+}
+
+.dekstoplogo img{
+	width:100%;
+}
+
+.tab {
+  position: relative;
+  width: 100%;
+  z-index: 99999;
+}
+
+.tab ul {
+    padding: 0%;
+    position: relative;
+    float:right;
+}
+
+.tab ul li {
+  display: table-cell;
+  text-align: center;
+}
+
+.tab ul li a {
+    position:relative;
+    font-size:14px;
+	margin:10px 15px;
+	font-weight:500 !important;
+	padding:5px 15px;
+	color:#333;
+	line-height:40px;
+	letter-spacing:1px;
+    display: block;	
+}
+
+.tab ul li a:hover {
+    color: #333;
+	border-bottom:#004241 2px solid;
+}
+
+.tab .close {
+  display: none;
+}
+
+#startbox{
+	position:relative;
+	background:url(../images/gradient1.jpg);
+	font-size:18px;
+	margin:10px 0px 10px 55px;
+	padding:5px 30px;
+	color:#fff;
+	line-height:40px;
+	transition:0.2s all ease-in;
+}
+
+#startbox:hover{
+	text-decoration:none;
+	background:url(../images/gradient1.jpg);
+	transition:0.2s all ease-in;
+}
+
+.fixed {
+  position: fixed;
+  left: 0;
+  right: 0;
+  background:#fff;
+  top: 0;
+}
+
+.dim {
+  display: none;
+  position: fixed;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  z-index: 10;
+}
+.dim.dim_show {
+  display: block;
+}
+
+
+
+@media only screen and (max-width: 1024px) {  
+  .responsivelogo{
+    width:8%;
+	display:block !important;
+	margin-left:auto;
+	margin-right:auto;
+	position:relative;
+  }
+ 
+  .responsivelogo img{
+	  width:100%;
+  }
+   
+  .dekstoplogo{
+	  display:none;
+  }
+	
+  .header {
+    height: 50px;
+	margin-top: -8px;
+    line-height: 50px;
+    position: fixed;
+	background:#fff;
+    margin-left:-7px;
+  }
+  .header button {
+    display: block;
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    left: 0;
+    top: 0;
+    font: 0/0 a;
+    transition: all .2s;
+  }
+
+  .header button span {
+    display: block;
+    content: "";
+    width: 25px;
+    height: 2px;
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    top: 0;
+    margin: auto;
+    background-color: #000;
+    border-radius: 2px;
+  }
+  .header button span:before, .header button span:after {
+    display: block;
+    content: "";
+    width: 25px;
+    height: 2px;
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: auto;
+    background-color: #000;
+    border-radius: 2px;
+  }
+  .header button span:before {
+    top: -8px;
+  }
+  .header button span:after {
+    top: 8px;
+  }
+
+  .tab {
+    position: fixed;
+    top: 0;
+    left: -100%;
+    bottom: 0;
+    width: 85%;
+  }
+  .tab.show {
+	background:#fff;
+    left: 0;
+  }
+  .tab ul {
+	width: 100%;
+    display: block;
+	margin:0;
+	position: absolute;
+    top: 50%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+  }
+  .tab ul li {
+    display: block;
+    text-align: center;
+	border-bottom:1px solid #e6e6e6;
+	margin-top: 5%;
+    width: 100%;
+  }
+  
+  .tab ul li a {
+	font-size:20px;
+	float: none;
+	text-decoration:none;
+	transition:all ease-in 0.2s;
+	-moz-transition:all ease-in 0.2s;
+	-ms-transition:all ease-in 0.2s;
+	-o-transition:all ease-in 0.2s;
+	-webkit-transition:all ease-in 0.2s;
+    color: #000;
+  }
+   
+   .tab ul li a:hover {
+    color: #000;
+    background:#fff;
+	transition:all ease-in 0.2s;
+	-moz-transition:all ease-in 0.2s;
+	-ms-transition:all ease-in 0.2s;
+	-o-transition:all ease-in 0.2s;
+	-webkit-transition:all ease-in 0.2s;
+  }
+   
+   #startbox{
+	   color:#000;
+	 background:#fff;
+	 font-size:24px;
+       margin-left: 0px;
+  }
+
+    #startbox:hover{
+	 background:#fff;
+  }
+   
+  .tab ul li .sub_tab {
+    display: block;
+    padding-top: 0;
+  }
+  .tab ul li .sub_tab li a {
+    position: relative;
+    padding: 10px 20px 10px 30px;
+    font-size: 14px;
+  }
+  .tab ul li .sub_tab li a:before {
+    display: inline-block;
+    content: "\2517";
+  }
+  .tab .close {
+    display: block;
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    right: 0;
+    top: 0;
+    border: none;
+    outline: none;
+    font: 0/0 a;
+    background: transparent;
+    transition: all .2s;
+	opacity: 1;
+  }
+  .tab .close:before {
+    display: block;
+    position: absolute;
+    left: 13px;
+    top: 24px;
+    content: "\00d7";
+    font-size: 40px;
+    color: #000;
+  }
+
+}
+
+
+
+@media only screen and (max-width: 767px){  
+  .tab ul li a {
+	font-size:16px;
+  }
+  
+}
+
+
+
+
+@media only screen and (max-width: 950px) {
+  .responsivelogo{
+    width:9%;
+  }
+
+}
+
+
+
+
+@media only screen and (max-width: 850px){
+.responsivelogo{
+    width:10%;
+  }
+
+}
+
+
+
+@media only screen and (max-width: 768px){
+  .header {
+	margin-top: -4px;
+  }
+  .responsivelogo{
+    width:11%;
+	margin-top:0.5%;
+	display:block;
+	margin-left:auto;
+	margin-right:auto;
+	position:relative;
+  }
+  
+  .responsivelogo img{
+	  width:100%;
+  }
+
+  
+}
+
+
+
+
+
+
+
+@media only screen and (max-width: 720px){
+  .responsivelogo{
+    width:11%;
+	margin-top:0%;
+  }
+
+}
+
+
+@media only screen and (max-width: 650px){
+  .responsivelogo{
+    width:12%;
+	margin-top:0%;
+  }
+
+}
+
+
+@media only screen and (max-width: 610px){
+  .responsivelogo{
+    width:13%;
+	margin-top:0%;
+  }
+
+}
+
+
+@media only screen and (max-width: 550px){
+  .responsivelogo{
+    width:14%;
+	margin-top:0%;
+  }
+
+}
+
+
+@media only screen and (max-width: 400px){
+  .responsivelogo{
+    width:16%;
+	margin-top:0%;
+  }
+
+}
+
+
+@media only screen and (min-width:768px) and (max-width: 1280px){
+  .header {
+	margin-top: -3px;
+	margin-left:0px;
+  }
+  
+  .container-left {
+    width: 54%;
+    margin: 3% 0%;
+  }
+  
+  .container-right {
+    width: 46%;
+    margin: 0% 0%;
+  }
+  
+  .box-left {
+    width: 46%;
+    margin: 0% 0%;
+  }
+  
+  .box-right {
+    width: 54%;
+    margin: 5% 0%;
+  }
+  
+  .responsivelogo img{
+	  width:100%;
+  }
+  
+  .footer {
+    margin-top: 50%;
+  }
+  
+  .label-input100 {
+    font-size: 14px;
+    line-height: 20px;
+  }
+   
+   .rs1.wrap-input100 {
+    font-size: 14px;
+  }
+  
+}
+
+::-moz-selection {
+  background-color: #f6e58d;
+  color: #30336b;
+}
+
+::selection {
+  background-color: #f6e58d;
+  color: #30336b;
+}
