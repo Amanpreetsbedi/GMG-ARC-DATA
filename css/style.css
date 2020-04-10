@@ -446,7 +446,7 @@ section{
 .contract_vehicles_image{
 	width:30%;
 	float:left;
-	margin:5% 7%;
+	margin:0% 7%;
 }
 .contract_vehicles_image img{
 	width:100%;
