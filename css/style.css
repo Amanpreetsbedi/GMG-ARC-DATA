@@ -446,7 +446,7 @@ section{
 .contract_vehicles_image{
 	width:30%;
 	float:left;
-	margin:0% 7%;
+	margin:5% 7%;
 }
 .contract_vehicles_image img{
 	width:100%;
@@ -758,7 +758,7 @@ section{
 @media only screen and (max-width: 500px) {
 .heading {
     font-size: 30px;
-	margin-top: 5%;
+	margin: 5% 0%;
 }
 
 }
@@ -777,7 +777,7 @@ section{
 
 .heading {
 	font-size: 25px;
-	margin-top: 7%;
+	margin: 5% 0%;
 }
 
 
@@ -791,7 +791,7 @@ section{
 
 .heading {
     font-size: 25px;
-	margin-top:10%;
+	margin-top:7% 0%;
 }
 
 }
