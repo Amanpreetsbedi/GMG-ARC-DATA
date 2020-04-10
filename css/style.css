@@ -471,20 +471,6 @@ section{
 
 
 
-@media only screen and (max-width:1366px) and (min-width: 1024px){
-.form_heading {
-    margin-top: 10%;
-}
-
-.header1 {
-    height: 700px;
-}	
-	
-
-}
-
-
-
 
 @media only screen and (max-width: 1440px) and (min-width: 900px) {
 .content-left {
@@ -502,11 +488,6 @@ section{
 
 .header1{
 	height:650px;
-}
-
-.form_heading {
-    margin-top: 10%;
-    margin-bottom: 2%;
 }
 
 .container-contact100 {
@@ -800,7 +781,7 @@ section{
 
 @media only screen and (max-width: 767px) {
 .contactus{
-	margin-top: 20%;
+	margin-top: 5%;
 }
 
 .content-left {
