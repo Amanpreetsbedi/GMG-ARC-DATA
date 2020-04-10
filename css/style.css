@@ -734,7 +734,7 @@ section{
 @media only screen and (max-width: 767px) {
 .heading {
     font-size: 35px;
-	margin-top:2%;
+	margin:2% 0%;
 }
 
 
@@ -747,7 +747,7 @@ section{
 @media only screen and (max-width: 600px) {
 .heading {
     font-size: 35px;
-	margin-top:3%;
+	margin:3% 0%;
 }
 
 
@@ -791,7 +791,7 @@ section{
 
 .heading {
     font-size: 25px;
-	margin-top:7% 0%;
+	margin:7% 0%;
 }
 
 }
