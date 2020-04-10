@@ -399,9 +399,8 @@ section{
 	width:90%;
 	font-size:18px;
 	margin:15% 5% 0%;
-	line-height:30px;
 	text-align:left;
-	line-height:2;
+	line-height: 1.5;
 }
 
 .ourworks{
@@ -418,7 +417,6 @@ section{
 .workbox p{
 	width:100%;
 	font-size:18px;
-	line-height:30px;
 	text-align:left;
 	line-height:1.5;
 }
