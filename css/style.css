@@ -78,17 +78,17 @@ section{
 
 .content{
 	float:left;
-	margin:0% 0% 0% 2%;
+	margin: 7% 0% 0% 2%;
 }
 
 .content h1{
-	font-size:70px;
+	font-size: 65px;
 	letter-spacing:1px;
 }
 
 .content p{
 	width: 90%;
-	font-size:19px;
+	font-size:17px;
 	margin:5% 0%;
 	line-height:30px;
 }
@@ -155,7 +155,7 @@ section{
 
 .context_right h1{
 	float:right;
-	font-size:70px;
+	font-size: 55px;
 	text-align:right;
 }
 
@@ -221,7 +221,7 @@ section{
 }
 
 .context_left h1{
-	font-size:70px;
+	font-size: 55px;
 	text-align:left;
 }
 
@@ -289,7 +289,7 @@ section{
 .form_heading {
     width: 100%;
     float: left;
-    font-size: 45px;
+    font-size: 55px;
     text-align: center;
     margin-top: 12%;
 	margin-bottom:3%;
@@ -375,20 +375,21 @@ section{
 .middle{
 	width:100%;
 	float:left;
-	margin-top:1%;
+	margin-top:5%;
 }
 
 .information{
 	width:100%;
 	float:left;
-	margin-top:5%;
+	margin-top: 2%;
 }
 
 .heading{
 	width:100%;
 	float:left;
 	text-align:center;
-	font-size:55px;	
+	font-size: 55px;	
+	margin:0;
 }
 
 .text_left{
@@ -397,8 +398,8 @@ section{
 
 .text_left p{
 	width:90%;
-	font-size:18px;
-	margin:15% 5%;
+	font-size:16px;
+	margin:15% 5% 0%;
 	line-height:30px;
 	text-align:left;
 	line-height:2;
@@ -417,7 +418,7 @@ section{
 
 .workbox p{
 	width:100%;
-	font-size:22px;
+	font-size:18px;
 	line-height:30px;
 	text-align:left;
 	line-height:1.5;
