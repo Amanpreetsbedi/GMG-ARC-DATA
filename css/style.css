@@ -397,7 +397,7 @@ section{
 
 .text_left p{
 	width:90%;
-	font-size:16px;
+	font-size:18px;
 	margin:15% 5% 0%;
 	line-height:30px;
 	text-align:left;
@@ -717,6 +717,18 @@ section{
 .heading {
     font-size: 35px;
 	margin-top:2%;
+}
+
+.text_left p {
+    font-size: 14px;
+}
+
+.workbox p {
+    font-size: 16px;
+}
+
+.bulletedlist li {
+    font-size: 14px;
 }
 
 
