@@ -397,7 +397,7 @@ button {
   
   .container-left {
     width: 54%;
-    margin: 3% 0%;
+    margin: 2% 0%;
   }
   
   .container-right {
@@ -410,9 +410,14 @@ button {
     margin: 0% 0%;
   }
   
+  .context_right {
+    float: right;
+    margin: 5%;
+  }
+  
   .box-right {
     width: 54%;
-    margin: 5% 0%;
+    margin: 2% 0%;
   }
   
   .responsivelogo img{
