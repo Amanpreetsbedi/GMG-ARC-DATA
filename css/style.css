@@ -298,7 +298,6 @@ section{
 .footer{
 	width:100%;
 	float:left;
-	margin-top:4%;
 }
 
 .footer-content{
@@ -315,6 +314,7 @@ section{
 }
 
 .footer_logo img{
+	width: 10%;
 	display:block;
 	margin-left:auto;
 	margin-right:auto;
@@ -332,6 +332,7 @@ section{
 	margin-top:0px;
 	margin-bottom:15px;
     font-size: 14px;
+	letter-spacing: 0.5px;
 }
 
 .link{
@@ -351,6 +352,8 @@ section{
 	font-size: 14px;
 	transition: all 0.3s ease;
 	line-height:30px;
+	font-weight:500 !important;
+	letter-spacing: 0.5px;
 }
 
 .footer_box a:hover{
@@ -453,7 +456,6 @@ section{
 .other_page_footer{
 	width:100%;
 	float:left;
-	margin-top:4%;
 }
 
 .bulletedlist{
@@ -707,6 +709,26 @@ section{
 .responsive_header{
 	display:block !important;
 }
+
+}
+
+
+@media only screen and (max-width: 768px) {
+.small_box:hover{
+	color:#000;
+	background:none;
+}
+
+.anchor_box:hover{
+	color:#000;
+	background:none;
+}
+
+.anchor_case:hover{
+	color:#000;
+	background:none;
+}
+
 
 }
 
